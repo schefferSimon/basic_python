@@ -19,3 +19,6 @@ copiaDeLista.reverse()
 
 print(copiaDeLista);
 
+nuevalista = copiaDeLista;
+
+
