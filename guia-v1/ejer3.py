@@ -13,13 +13,6 @@ chef3 =set(chef3)
 ingredientes_comunes = chef1 & chef2 & chef3;
 print("Los ingredientes que usan en comun los chef son : ", ingredientes_comunes)
 
-ingrediente_unico1= chef1 - chef2 - chef3
-ingrediente_unico2 = chef2 - chef1 - chef3
-ingrediente_unico3 = chef3-chef1-chef2
-
-print(ingrediente_unico1)
-print(ingrediente_unico2)
-print(ingrediente_unico3)
 
 unico = chef1 ^ chef2 ^ chef3 ^ ingredientes_comunes
 
