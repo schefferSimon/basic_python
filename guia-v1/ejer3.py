@@ -20,3 +20,7 @@ ingrediente_unico3 = chef3-chef1-chef2
 print(ingrediente_unico1)
 print(ingrediente_unico2)
 print(ingrediente_unico3)
+
+unico = chef1 ^ chef2 ^ chef3 ^ ingredientes_comunes
+
+print(unico)
