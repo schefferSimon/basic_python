@@ -3,6 +3,11 @@ longitud) como claves y nombres de ciudades como valores. Mostrar la
 ciudad asociada a una coordenada dada.
 """
 
-tupla1=(12,32)
-tupla2=(34,54)
+
+diccionario={
+   (22,33): "argentina",
+   (33,44): "colombia"
+}
+
+print(diccionario[(22,33)])
 
